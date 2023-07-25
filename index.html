@@ -4,8 +4,76 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fruit Burst</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.4.0/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
 </head>
 <body>
+
+    <header class="px-[5%] mt-6">
+        <nav class="container mx-auto">
+            <div class="navbar rounded-full px-[50px] py-4 bg-[#F85559]">
+
+                <div class="navbar-start">
+                <!-- For Mobie . Hidden on Large Device -->
+                  <div class="dropdown">
+                    <label tabindex="0" class="cursor-pointer text-white lg:hidden">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 hover:h-9 w-9 transition-all" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                    </label>
+                    <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-lg-100 rounded-box w-52">
+                        <li><a class="text-lg mr-6 font-medium" href="#">Home</a></li>
+                            <li><a class="text-lg mr-6 font-medium" href="#">Shop</a></li>
+                            <li><a class="text-lg mr-6 font-medium" href="#">Contact</a></li>
+                            <li><a class="text-lg mr-6 font-medium" href="#">About Us</a></li>
+                    </ul>
+                  </div>
+                    <!-- For large device, hidden on Small  -->
+                    <div class="navbar-center hidden lg:flex">
+    
+                        <ul class=" menu-horizontal bg-none text-white">
+                            <li><a class="text-lg mr-6 font-medium" href="#">Home</a></li>
+                            <li><a class="text-lg mr-6 font-medium" href="#">Shop</a></li>
+                            <li><a class="text-lg mr-6 font-medium" href="#">Contact</a></li>
+                            <li><a class="text-lg mr-6 font-medium" href="#">About Us</a></li>
+                        </ul>
+    
+                    </div>
+                </div>
+    
+                <div class="navbar-center lg:flex">
+                    <img src="images/logo.png" alt="">
+                    <a class="text-[40px] font-bold text-white ml-4">Fruit Burst</a>
+    
+                </div>
+    
+                <div class="navbar-end">
+    
+                    <input type="text" placeholder="Search here" class="input focus:outline-0 w-full max-w-xs" />
+                    <span class="relative -left-10">
+                        <a href="#"><svg class="h-5 w-5 fill-[#6f6f6f]" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30"
+                            height="30" viewBox="0 0 30 30">
+                            <path
+                                d="M 13 3 C 7.4889971 3 3 7.4889971 3 13 C 3 18.511003 7.4889971 23 13 23 C 15.396508 23 17.597385 22.148986 19.322266 20.736328 L 25.292969 26.707031 A 1.0001 1.0001 0 1 0 26.707031 25.292969 L 20.736328 19.322266 C 22.148986 17.597385 23 15.396508 23 13 C 23 7.4889971 18.511003 3 13 3 z M 13 5 C 17.430123 5 21 8.5698774 21 13 C 21 17.430123 17.430123 21 13 21 C 8.5698774 21 5 17.430123 5 13 C 5 8.5698774 8.5698774 5 13 5 z">
+                            </path>
+                        </svg></a>
+                    </span>
+                </div>
+
+            </div>
+        </nav>
+
+        
+
+    </header>
+
+    <main>
+
+    </main>
+
+    <footer>
+
+    </footer>
     
 </body>
 </html>
