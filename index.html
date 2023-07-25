@@ -13,21 +13,12 @@
 
     <header class="px-[5%] mt-6">
         <nav class="container mx-auto">
-            <div class="navbar rounded-full px-[50px] py-4 bg-[#F85559]">
+
+            <div class="navbar lg:flex hidden md:hidden rounded-full lg:px-[50px] py-4 bg-[#F85559]">
 
                 <div class="navbar-start">
                 <!-- For Mobie . Hidden on Large Device -->
-                  <div class="dropdown">
-                    <label tabindex="0" class="cursor-pointer text-white lg:hidden">
-                      <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 hover:h-9 w-9 transition-all" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
-                    </label>
-                    <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-lg-100 rounded-box w-52">
-                        <li><a class="text-lg mr-6 font-medium" href="#">Home</a></li>
-                            <li><a class="text-lg mr-6 font-medium" href="#">Shop</a></li>
-                            <li><a class="text-lg mr-6 font-medium" href="#">Contact</a></li>
-                            <li><a class="text-lg mr-6 font-medium" href="#">About Us</a></li>
-                    </ul>
-                  </div>
+                  
                     <!-- For large device, hidden on Small  -->
                     <div class="navbar-center hidden lg:flex">
     
@@ -61,6 +52,31 @@
                 </div>
 
             </div>
+
+            <div class="navbar lg:hidden bg-base-100">
+                
+                <div class="flex-1">
+                    <img src="images/logo.png" class="w-10" alt="">
+                    <a class="text-xl font-bold text-[#121212] ml-2">Fruit Burst</a>
+                </div>
+
+                <div class="flex-none">
+                    <div class="dropdown">
+                        <label tabindex="0" class="cursor-pointer ">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                <path d="M3.75 6.75H20.25M3.75 12H20.25M3.75 17.25H20.25" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                              </svg>
+                        </label>
+                        <ul tabindex="0" class="menu menu-sm dropdown-content mt-8 z-[1] p-2 shadow rounded-box w-40 relative right-0">
+                            <li><a class="text-lg mr-6 font-medium" href="#">Home</a></li>
+                                <li><a class="text-lg mr-6 font-medium" href="#">Shop</a></li>
+                                <li><a class="text-lg mr-6 font-medium" href="#">Contact</a></li>
+                                <li><a class="text-lg mr-6 font-medium" href="#">About Us</a></li>
+                        </ul>
+                      </div>
+                  </div>
+                
+              </div>
         </nav>
 
         
